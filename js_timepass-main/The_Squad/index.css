@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#ref{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#ref div{
+    padding: 3rem;
+    background: rgb(9, 60, 227);
+    margin: 0.5rem;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
